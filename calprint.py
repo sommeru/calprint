@@ -120,7 +120,8 @@ def assembleHtmlResponse(year,calendar):
 
 
     html = html + "</table>\n"
-    html = html + "<div class=\"footer\">u.sommer@hno-mangfall-inn.de</div>\n"
+    html = html + "<div class=\"footer1\">" + str(datetime.today()) +  "</div>\n"  
+    html = html + "<div class=\"footer2\">u.sommer@hno-mangfall-inn.de</div>\n"
     html = html + "</body>\n"
     return (html)
 

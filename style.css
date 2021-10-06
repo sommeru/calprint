@@ -77,9 +77,17 @@ th {
     font-weight: bold;
 }
 
-.footer {
+.footer1 {
+    font-size: 0.9vh;
+    margin-left: 0.3vw;
+    width: 10vw;
+    text-align: left;
+}
+
+.footer2 {
     font-size: 0.9vh;
     margin-left: 88vw;
     width: 10vw;
     text-align: right;
 }
+
