@@ -34,3 +34,12 @@ body {
     text-align: center;
     letter-spacing: 0.5vw;
 }
+.daynr {
+    width: 0.85vw;
+    font-size: 0.9vh;
+}
+.day {
+    font-size: 1vh;
+    margin-top: -0.2vh;
+    width: 6.9vw;
+}

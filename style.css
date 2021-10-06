@@ -28,16 +28,17 @@ body {
 .calendar {
   border-collapse: collapse;
   table-layout: auto;
+  margin-top: -1vh;
 }
 
 .daynr {
-    width: 2vw;
+    width: 0.7vw;
     font-size: 1vh;
 }
 
 .day {
     font-size: 1.2vh;
-    width: 7.2vw;
+    width: 6.9vw;
 }
 
 td.weekend {
@@ -74,4 +75,11 @@ th {
     font-size: 10vh;
     color: grey;
     font-weight: bold;
+}
+
+.footer {
+    font-size: 0.9vh;
+    margin-left: 88vw;
+    width: 10vw;
+    text-align: right;
 }
