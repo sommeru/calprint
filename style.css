@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  
+}
+
+.logo {
+    position: absolute;
+    margin-left: 88vw;
+    margin-top: -10vh;
+    background-image: url(logo.png);
+    height: 4vw;
+    width: 10vw;
+    background-repeat: no-repeat;
+}
+
+.calname {
+    position: absolute;
+    margin-top: -14vh;
+    color: darkgray;
+    font-size: 12vh;
+    font-variant: all-small-caps;
+    width: 100vw;
+    text-align: center;
+    letter-spacing: 0.5vw;
+}
+
+.calendar {
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.daynr {
+    width: 2vw;
+    font-size: 1vh;
+}
+
+.day {
+    font-size: 1.2vh;
+    width: 7.2vw;
+}
+
+td.weekend {
+	background-color: lightgrey;
+}
+
+td {
+  border: 1px solid white;
+  text-align: left; 
+  vertical-align: middle;
+  padding-left: 0.4vw;
+  background-color: white;
+  
+}
+
+#tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+  background-color: blue;
+  color: white;
+  text-align: left;
+  padding-left: 0.4vw;
+}
+
+.daycontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.4vh;
+}
+
+
+.year {
+    font-size: 10vh;
+    color: grey;
+    font-weight: bold;
+}

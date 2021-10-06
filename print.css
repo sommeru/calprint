@@ -1,0 +1,36 @@
+
+@page {
+  margin: 0;
+  size: landscape
+}
+
+body { 
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+    background-color: white;
+    font-family: sans-serif;
+ -webkit-print-color-adjust: exact !important; 
+}
+
+.logo {
+    position: absolute;
+    margin-left: 84vw;
+    margin-top: -10vh;
+    background-image: url(logo.png);
+    height: 5vw;
+    width: 11vw;
+    background-repeat: no-repeat;
+}
+
+.calname {
+    position: absolute;
+    margin-top: -14vh;
+    color: darkgray;
+    font-size: 12vh;
+    font-variant: all-small-caps;
+    width: 100vw;
+    text-align: center;
+    letter-spacing: 0.5vw;
+}
